@@ -262,6 +262,19 @@
 		   ]
 		},
 		{
+			"name" 			: "HTML Visualforce Page",
+			"file_name"		: "ApexPageHTML.page",
+			"description" 	: "Visualforce Page HTML template",
+			"author" 		: "Matt Newell - CodeScience",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Visualforce Page API Name",
+		            "default" 		: "MyVisualforcePageName"
+		        }
+		   ]
+		},
+		{
 			"name" 			: "Header and PageBlock",
 			"file_name"		: "HeaderPageBlock.page",
 			"description" 	: "Visualforce Page with SectionHeader and PageBlock",
