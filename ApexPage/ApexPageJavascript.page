@@ -1,0 +1,4 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false" contentType="application/javascript#{{ api_name }}.js" cache="false" expires="0" >
+    
+</apex:page>
+
