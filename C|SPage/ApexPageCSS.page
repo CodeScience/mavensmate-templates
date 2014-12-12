@@ -1,0 +1,3 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false" contentType="text/css#{{ api_name }}.css" cache="false" expires="0" >
+    
+</apex:page>

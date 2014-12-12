@@ -1,4 +1,46 @@
 {
+	"C|SPage" : [
+		{
+			"name" 			: "HTML Visualforce Page",
+			"file_name"		: "ApexPageHTML.page",
+			"description" 	: "Visualforce Page HTML template",
+			"author" 		: "Matt Newell",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Visualforce Page API Name",
+		            "default" 		: "MyVisualforcePageName"
+		        }
+		   ]
+		},
+		{
+			"name" 			: "JS Visualforce Page",
+			"file_name"		: "ApexPageJavascript.page",
+			"description" 	: "Visualforce Page JavaScript template",
+			"author" 		: "Matt Carroll - CodeScience",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Visualforce Page API Name",
+		            "default" 		: "MyVisualforcePageName"
+		        }
+		   ]
+		},
+		{
+			"name" 			: "CSS Visualforce Page",
+			"file_name"		: "ApexPageCSS.page",
+			"description" 	: "Visualforce Page CSS template",
+			"author" 		: "Matt Carroll - CodeScience",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Visualforce Page API Name",
+		            "default" 		: "MyVisualforcePageName"
+		        }
+		   ]
+		}
+
+	],
 	"ApexClass" : [
 		{
 			"name" 			: "Default",
@@ -265,7 +307,7 @@
 			"name" 			: "HTML Visualforce Page",
 			"file_name"		: "ApexPageHTML.page",
 			"description" 	: "Visualforce Page HTML template",
-			"author" 		: "Matt Newell - CodeScience",
+			"author" 		: "Matt Newell",
 			"params" 		: [ 
 		        {   
 		            "name"          : "api_name",
