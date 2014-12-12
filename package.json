@@ -1,5 +1,5 @@
 {
-	"C|SPage" : [
+	"CSPage" : [
 		{
 			"name" 			: "HTML Visualforce Page",
 			"file_name"		: "ApexPageHTML.page",
