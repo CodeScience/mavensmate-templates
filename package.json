@@ -275,6 +275,32 @@
 		   ]
 		},
 		{
+			"name" 			: "JS Visualforce Page",
+			"file_name"		: "ApexPageJavascript.page",
+			"description" 	: "Visualforce Page JavaScript template",
+			"author" 		: "Matt Carroll - CodeScience",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Visualforce Page API Name",
+		            "default" 		: "MyVisualforcePageName"
+		        }
+		   ]
+		},
+		{
+			"name" 			: "CSS Visualforce Page",
+			"file_name"		: "ApexPageCSS.page",
+			"description" 	: "Visualforce Page CSS template",
+			"author" 		: "Matt Carroll - CodeScience",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Visualforce Page API Name",
+		            "default" 		: "MyVisualforcePageName"
+		        }
+		   ]
+		},
+		{
 			"name" 			: "Header and PageBlock",
 			"file_name"		: "HeaderPageBlock.page",
 			"description" 	: "Visualforce Page with SectionHeader and PageBlock",
