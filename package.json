@@ -276,7 +276,7 @@
 		            "name"          : "static_name",
 		            "description"   : "Static Resource Name",
 		            "default" 		: "MyStaticResourceName"
-		        },
+		        }
 		   ]
 		},
 		{
