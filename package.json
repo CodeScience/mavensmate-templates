@@ -262,6 +262,24 @@
 		   ]
 		},
 		{
+			"name" 			: "Angular Visualforce Page",
+			"file_name"		: "ApexPageAngular.page",
+			"description" 	: "Visualforce Angular template",
+			"author" 		: "Matt Newell - CodeScience",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Visualforce Page API Name",
+		            "default" 		: "MyVisualforcePageName"
+		        },
+		        {   
+		            "name"          : "static_name",
+		            "description"   : "Static Resource Name",
+		            "default" 		: "MyStaticResourceName"
+		        },
+		   ]
+		},
+		{
 			"name" 			: "HTML Visualforce Page",
 			"file_name"		: "ApexPageHTML.page",
 			"description" 	: "Visualforce Page HTML template",
