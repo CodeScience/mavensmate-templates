@@ -11,7 +11,7 @@
 
     <apex:includeScript value="{!URLFOR($Resource.{{ static_name }}, '/scripts/modernizr.js')}"/>
     <script type="text/javascript">
-    appWidget = {
+    configSettings = {
         staticPath: '{!$Resource.{{ static_name }}}',
         config: {},
         remoteActions: {}
