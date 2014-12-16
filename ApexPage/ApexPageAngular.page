@@ -13,7 +13,7 @@
 
     <script type="text/javascript">
     if(document.URL.indexOf("force") > 0) {
-        staticURL = '{!$Resource.{{ static_name }}}',
+        staticURL = '{!$Resource.{{ static_name }}}';
     }else{
         staticURL= '';    
     }
