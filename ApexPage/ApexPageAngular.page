@@ -10,12 +10,19 @@
     <apex:stylesheet value="{!URLFOR($Resource.{{ static_name }}, '/styles/app.css')}"/>
 
     <apex:includeScript value="{!URLFOR($Resource.{{ static_name }}, '/scripts/modernizr.js')}"/>
+
     <script type="text/javascript">
+    if(document.URL.indexOf("force") > 0) {
+        staticURL: '{!$Resource.{{ static_name }}}',
+    }else{
+        staticURL= '';    
+    }
     configSettings = {
-        staticPath: '{!$Resource.{{ static_name }}}',
+        staticPath: '',
         config: {},
         remoteActions: {}
     };
+    configSettings.staticPath = staticURL;
     </script>
 </head>
 
