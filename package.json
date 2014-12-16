@@ -276,6 +276,11 @@
 		            "name"          : "static_name",
 		            "description"   : "Static Resource Name",
 		            "default" 		: "MyStaticResourceName"
+		        },
+		        {   
+		            "name"          : "ng_name",
+		            "description"   : "Angular App Name",
+		            "default" 		: "ng-App="
 		        }
 		   ]
 		},
