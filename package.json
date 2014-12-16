@@ -270,17 +270,17 @@
 		        {   
 		            "name"          : "api_name",
 		            "description"   : "Visualforce Page API Name",
-		            "default" 		: "MyVisualforcePageName"
+		            "default" 		: "My_Visualforce_PageName"
 		        },
 		        {   
 		            "name"          : "static_name",
 		            "description"   : "Static Resource Name",
-		            "default" 		: "MyStaticResourceName"
+		            "default" 		: "My_Static_ResourceName"
 		        },
 		        {   
 		            "name"          : "ng_name",
 		            "description"   : "Angular App Name",
-		            "default" 		: "ng-App="
+		            "default" 		: "My_Angular_AppName"
 		        }
 		   ]
 		},
