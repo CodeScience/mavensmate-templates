@@ -10,6 +10,13 @@
     <apex:stylesheet value="{!URLFOR($Resource.{{ static_name }}, '/styles/app.css')}"/>
 
     <apex:includeScript value="{!URLFOR($Resource.{{ static_name }}, '/scripts/modernizr.js')}"/>
+    <script type="text/javascript">
+    appWidget = {
+        staticPath: '{!$Resource.{{ static_name }}}',
+        config: {},
+        remoteActions: {}
+    };
+    </script>
 </head>
 
 <body>
