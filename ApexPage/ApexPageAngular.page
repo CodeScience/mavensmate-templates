@@ -13,16 +13,15 @@
 
     <script type="text/javascript">
     if(document.URL.indexOf("force") > 0) {
-        staticURL: '{!$Resource.{{ static_name }}}',
+        staticURL = '{!$Resource.{{ static_name }}}',
     }else{
         staticURL= '';    
     }
     configSettings = {
-        staticPath: '',
+        staticPath: staticURL,
         config: {},
         remoteActions: {}
     };
-    configSettings.staticPath = staticURL;
     </script>
 </head>
 
