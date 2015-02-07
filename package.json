@@ -284,29 +284,7 @@
 		        }
 		   ]
 		},
-		{
-			"name" 			: "Health SPA Visualforce Page",
-			"file_name"		: "ApexPageHealth.page",
-			"description" 	: "Health Visualforce Angular SPA Page template",
-			"author" 		: "Dan Shahin - CodeScience",
-			"params" 		: [ 
-		        {   
-		            "name"          : "api_name",
-		            "description"   : "Visualforce Page API Name",
-		            "default" 		: "My_Visualforce_PageName"
-		        },
-		        {   
-		            "name"          : "static_name",
-		            "description"   : "Static Resource Name",
-		            "default" 		: "My_Static_ResourceName"
-		        },
-		        {   
-		            "name"          : "ng_name",
-		            "description"   : "Angular App Name",
-		            "default" 		: "My_Angular_AppName"
-		        }
-		   ]
-		},
+		
 		{
 			"name" 			: "HTML Visualforce Page",
 			"file_name"		: "ApexPageHTML.page",
