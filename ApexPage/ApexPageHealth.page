@@ -1,0 +1,37 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false" cache="false" expires="0" >
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>health spa page</title>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width"/>
+    <apex:stylesheet value="{!URLFOR($Resource.{{ static_name }}, '/styles/vendor.css')}"/>
+    <apex:stylesheet value="{!URLFOR($Resource.{{ static_name }}, '/styles/app.css')}"/>
+
+    <!-- <apex:includeScript value="{!URLFOR($Resource.{{ static_name }}, '/scripts/modernizr.js')}"/> -->
+
+    <script type="text/javascript">
+    if(document.URL.indexOf("force") > 0) {
+        staticURL = '{!$Resource.{{ static_name }}}';
+    }else{
+        staticURL= '';    
+    }
+    configSettings = {
+        staticPath: staticURL,
+        config: {},
+        remoteActions: {}
+    };
+    </script>
+</head>
+
+<body>
+	<div ng-app="{{ ng_name }}">
+    	<ui-view></ui-view>
+    </div>	
+    <apex:includeScript value="{!URLFOR($Resource.{{ static_name }}, '/scripts/vendor.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.{{ static_name }}, '/scripts/app.js')}"/>
+</body>
+
+</html>	
+</apex:page>
