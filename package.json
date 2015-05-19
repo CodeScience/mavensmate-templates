@@ -32,6 +32,24 @@
 		   ]
 		},
 		{
+			"name" 			: "CS Msg",
+			"file_name"		: "CSMsg.cls",
+			"description" 	: "C|S Patterns: Message",
+			"author" 		: "Eddie Blazer",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Apex Class API Name",
+		            "default" 		: "ObjectMsg"
+		        },
+		        {   
+		            "name"          : "object_name",
+		            "description"   : "API name of the Standard or Custom Object",
+		            "default" 		: "Object"
+		        }
+		   ]
+		},
+		{
 			"name" 			: "CS Selector",
 			"file_name"		: "CSSelector.cls",
 			"description" 	: "C|S Patterns: Selector",
