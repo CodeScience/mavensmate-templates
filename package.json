@@ -14,6 +14,42 @@
 		   ]
 		},
 		{
+			"name" 			: "CS Domain",
+			"file_name"		: "CSDomain.cls",
+			"description" 	: "C|S Patterns: Domain",
+			"author" 		: "Eddie Blazer",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Apex Class API Name",
+		            "default" 		: "ObjectDomain"
+		        },
+		        {   
+		            "name"          : "object_name",
+		            "description"   : "API name of the Standard or Custom Object",
+		            "default" 		: "Object"
+		        }
+		   ]
+		},
+		{
+			"name" 			: "CS Selector",
+			"file_name"		: "CSSelector.cls",
+			"description" 	: "C|S Patterns: Selector",
+			"author" 		: "Eddie Blazer",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Apex Class API Name",
+		            "default" 		: "ObjectSelector"
+		        },
+		        {   
+		            "name"          : "object_name",
+		            "description"   : "API name of the Standard or Custom Object",
+		            "default" 		: "Object"
+		        }
+		   ]
+		},
+		{
 			"name" 			: "Batch",
 			"file_name"		: "BatchApexClass.cls",
 			"description" 	: "Batch Apex Class",
